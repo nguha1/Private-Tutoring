@@ -1,0 +1,9 @@
+/* Keep the original hero treatment; give the mobile photo more presence. */
+.photo-frame{transform:none}
+.subjects h2{font-family:var(--sans);font-weight:700;letter-spacing:-.045em}
+main .section h2{font-family:var(--sans);font-weight:700;letter-spacing:-.045em;color:var(--green)}
+main .section h2 em{font-style:normal;color:inherit}
+.payment-note{font-size:.82rem;color:var(--muted);margin:14px 0 0}
+.virtual-strip{background:var(--green);color:#fff;padding:22px max(42px,calc((100% - 1060px)/2))}.virtual-strip div{display:flex;align-items:center;gap:24px}.virtual-strip span{font-size:.7rem;text-transform:uppercase;letter-spacing:.13em;font-weight:700;color:#cfe1d3}.virtual-strip strong{font-size:.92rem;font-weight:600}.levels.single{grid-template-columns:1fr}.levels.single>div{max-width:650px}@media(max-width:760px){.virtual-strip{padding:20px 26px}.virtual-strip div{align-items:flex-start;flex-direction:column;gap:5px}}
+.footer-contact{display:flex;gap:20px}.footer-contact a{color:var(--muted)}.footer-contact a:hover{color:var(--green)}@media(max-width:760px){.footer-contact{align-items:flex-end;flex-direction:column;gap:4px;font-size:.72rem}}
+@media(max-width:760px){.hero-photo{order:-1}.photo-frame{width:min(100%,360px);height:350px}}
